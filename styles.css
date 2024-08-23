@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+ ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.tutor{
+    display: inline-flex;
+}
+
+/* Banner Section */
+.banner {
+    background: url('logo-color.png') no-repeat center center/cover;
+    color: black;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+p{
+    display: inline-block;
+}
+/* Sections */
+section {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#subjects .subject {
+    margin: 20px 0;
+}
